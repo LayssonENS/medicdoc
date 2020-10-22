@@ -53,6 +53,7 @@ body,
 p {
   color: #626262;
   font: 400 0.875rem/1.375rem 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
 
 .p-large {
@@ -2171,3 +2172,148 @@ a:hover.back-to-top {
   }
 }
 /* end of min-width width 100px */
+
+/* Especialidades */
+
+.form-3 {
+  padding-top: 10rem;
+  padding-bottom: 20rem;
+  background: black;
+  background-size: cover;
+}
+.service {
+  background: #d4fdfe;
+  background-repeat: repeat-y;
+  margin-top: 40px;
+}
+.service h2 {
+  font-size: 36px;
+  color: black;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center !important;
+}
+.service h4 {
+  font-size: 24px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 70px;
+  display: block;
+  padding-left: 150px;
+}
+.single-service-img {
+  width: 205px;
+  height: 125px;
+  background: #fff;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+}
+.single-service-img:before {
+  content: '';
+  position: absolute;
+  top: -42px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 102px solid transparent;
+  border-right: 104px solid transparent;
+  border-bottom: 42px solid #fff;
+}
+.single-service-img:after {
+  content: '';
+  position: absolute;
+  bottom: -42px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 102px solid transparent;
+  border-right: 102px solid transparent;
+  border-top: 42px solid #fff;
+  z-index: 10;
+}
+.service-img {
+  width: 200px;
+  height: 123px;
+  background: #3a9ecb;
+  position: relative;
+  top: 1px;
+  left: 2px;
+}
+.service-img:before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 40px solid #3a9ecb;
+}
+.service-img:after {
+  content: '';
+  position: absolute;
+  bottom: -39px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 40px solid #3a9ecb;
+  z-index: 999;
+}
+.single-service h3 {
+  margin-top: 60px;
+  color: black;
+  padding-bottom: 90px;
+}
+.service-img img.heart {
+  left: 20%;
+  top: 18%;
+}
+.service-img img.brain {
+  left: 26%;
+  top: 11%;
+}
+.service-img img.knee {
+  left: 38%;
+}
+.service-img img.bone {
+  left: 25%;
+  top: 14%;
+}
+.service-img img {
+  position: absolute;
+}
+/* End Especialidades */
+
+/* Start Clinica */
+
+.form-4 {
+  padding-top: 10rem;
+  padding-bottom: 20rem;
+  background: #d4fdfe;
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sobre {
+  background: #d4fdfe;
+  background-repeat: repeat-y;
+  margin-top: 40px;
+}
+.sobre h2 {
+  font-size: 50px;
+  color: black;
+  padding-left: 250px;
+}
+.sobre h4 {
+  font-size: 24px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 70px;
+  display: block;
+  padding-left: 150px;
+}
