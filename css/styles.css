@@ -834,15 +834,18 @@ input[type='checkbox'] {
   padding-top: 4rem;
   padding-bottom: 1.625rem;
   text-align: center;
-  
 }
 
 .cardPersonalizado {
   height: 400px;
+  background: #d4fdfe;
+  margin-right: -5px !important;
+  margin-left: -5px !important  ;
 }
 
 .cardPersonalizadoLaterais {
   margin-top: 30px !important;
+  background-color: #b9f7f9;
 }
 
 .cards-1 h2 {
@@ -851,10 +854,8 @@ input[type='checkbox'] {
 
 .cards-1 .card {
   max-width: 21rem;
-  border: 10px solid #c4d8dc;
-  border-radius: 0.5rem;
-  background: transparent;
-  margin: -5px;
+  border: 0px solid #c4d8dc;
+  border-radius: 0.7rem;
 }
 
 .cards-1 .card-image {
@@ -863,6 +864,7 @@ input[type='checkbox'] {
   margin-right: auto;
   margin-bottom: 2rem;
   margin-left: auto;
+  margin-top: 2rem;
 }
 
 .cards-1 .card-title {
@@ -2054,7 +2056,7 @@ a:hover.back-to-top {
   }
 
   .cards-1 .col-lg-12 div.card:nth-child(3n + 2) {
-  /* Comentado */
+    /* Comentado */
   }
   /* end of services */
 
@@ -2161,13 +2163,11 @@ a:hover.back-to-top {
 }
 /* end of min-width width 1200px */
 
-/* Min-width width 1200px */
+/* Min-width width 1500px */
 @media (min-width: 1500px) {
-
   /* Services */
-.cards-1 .card {
-  max-width: 28rem;
-  
+  .cards-1 .card {
+    max-width: 28rem;
+  }
 }
-}
-/* end of min-width width 1200px */
+/* end of min-width width 100px */
