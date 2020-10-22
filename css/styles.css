@@ -834,6 +834,15 @@ input[type='checkbox'] {
   padding-top: 4rem;
   padding-bottom: 1.625rem;
   text-align: center;
+  
+}
+
+.cardPersonalizado {
+  height: 400px;
+}
+
+.cardPersonalizadoLaterais {
+  margin-top: 30px !important;
 }
 
 .cards-1 h2 {
@@ -842,13 +851,10 @@ input[type='checkbox'] {
 
 .cards-1 .card {
   max-width: 21rem;
-  margin-right: auto;
-  margin-bottom: 4.5rem;
-  margin-left: 0px;
-  padding: 3.25rem 2rem 2rem 2rem;
   border: 10px solid #c4d8dc;
   border-radius: 0.5rem;
   background: transparent;
+  margin: -5px;
 }
 
 .cards-1 .card-image {
@@ -1880,11 +1886,6 @@ a:hover.back-to-top {
     max-width: 17.125rem;
     vertical-align: top;
   }
-
-  .cards-1 .col-lg-12 div.card:nth-child(3n + 2) {
-    margin-right: 2rem;
-    margin-left: 2rem;
-  }
   /* end of services */
 
   /* Details 1 */
@@ -2049,12 +2050,11 @@ a:hover.back-to-top {
 
   /* Services */
   .cards-1 .card {
-    max-width: 21rem;
+    max-width: 23rem;
   }
 
   .cards-1 .col-lg-12 div.card:nth-child(3n + 2) {
-    margin-right: 2.875rem;
-    margin-left: 2.875rem;
+  /* Comentado */
   }
   /* end of services */
 
@@ -2158,5 +2158,16 @@ a:hover.back-to-top {
     margin-left: 1.75rem;
   }
   /* end of extra pages */
+}
+/* end of min-width width 1200px */
+
+/* Min-width width 1200px */
+@media (min-width: 1500px) {
+
+  /* Services */
+.cards-1 .card {
+  max-width: 28rem;
+  
+}
 }
 /* end of min-width width 1200px */
