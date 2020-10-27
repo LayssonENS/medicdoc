@@ -1666,6 +1666,9 @@ a:hover.back-to-top {
   .header .header-content {
     padding-bottom: 2rem;
   }
+  .service h2 {
+    font-size: 50px !important;
+  }
 }
 /* Min-width width 768px */
 @media (min-width: 768px) {
