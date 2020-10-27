@@ -788,6 +788,7 @@ input[type='checkbox'] {
 /*********************/
 .header {
   background-color: #fff;
+  padding-top: 5rem !important;
 }
 
 .header .header-content {
