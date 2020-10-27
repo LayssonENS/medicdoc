@@ -830,6 +830,7 @@ input[type='checkbox'] {
   padding-bottom: 3rem;
   text-align: center;
   background: transparent !important;
+  padding-top: 100px;
 }
 
 .cardPersonalizado {
@@ -849,6 +850,7 @@ input[type='checkbox'] {
 
 .cards-1 h2 {
   margin-bottom: 1rem;
+  font-family: monospace;
   font-size: 20px; /* Troca o tamanho do numero de emergencia */
 }
 
@@ -873,6 +875,7 @@ input[type='checkbox'] {
 
 .cards-1 .card-body {
   padding: 0;
+  font-family: monospace;
 }
 
 /*************************/
@@ -1647,16 +1650,15 @@ a:hover.back-to-top {
 @media (max-width: 767px) {
   .cardPersonalizado {
     background: #d4fdfe;
-    margin-right: 0px ;
-    margin-left: 0px ;
+    margin-right: 0px;
+    margin-left: 0px;
     width: 100%;
   }
-  
+
   .cardPersonalizadoLaterais {
     margin-top: 0px !important;
     background-color: #b9f7f9;
     width: 100%;
-    
   }
   .cards-1 .card {
     max-width: 60rem;
@@ -1664,7 +1666,6 @@ a:hover.back-to-top {
   .header .header-content {
     padding-bottom: 2rem;
   }
-
 }
 /* Min-width width 768px */
 @media (min-width: 768px) {
@@ -1687,7 +1688,7 @@ a:hover.back-to-top {
     line-height: 3.5rem;
   }
   /* end of header */
-  
+
   /* Services */
   .cards-1 .card {
     display: inline-block;
@@ -1795,13 +1796,13 @@ a:hover.back-to-top {
   .navbar-custom .nav-item .nav-link {
     padding: 0.25rem 0.75rem 0.25rem 0.75rem;
     color: black;
-    font-weight: 700!important;
+    font-weight: 700 !important;
     opacity: 0.8;
   }
 
   .navbar-custom .nav-item .nav-link:hover,
   .navbar-custom .nav-item .nav-link.active {
-    font-weight: 700!important;
+    font-weight: 700 !important;
     color: black;
     opacity: 1;
   }
@@ -2336,7 +2337,12 @@ a:hover.back-to-top {
 
 /* Start Médico */
 
+.medico {
+  padding-top: 150px;
+}
+
 .medico h2 {
   font-size: 50px;
 }
+
 /* End Medico */
