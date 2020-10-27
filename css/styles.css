@@ -2352,3 +2352,7 @@ a:hover.back-to-top {
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.textFormatNome {
+  font-size: 3rem !important;
+}
